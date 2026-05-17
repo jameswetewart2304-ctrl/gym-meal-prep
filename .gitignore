@@ -1,32 +1,29 @@
-# Expo
-.expo/
-.expo-shared/
-dist/
-npm-debug.*
 *.jks
 *.p8
 *.p12
 *.key
 *.mobileprovision
 *.orig.*
-web-build/
-
-# Node
+*.jmx
+*.log
 node_modules/
 .env
 .env.local
-.env.*.local
-
-# IDE
-.vscode/
+.DS_Store
+dist/
+build/
 .idea/
+.vscode/
 *.swp
 *.swo
 *~
-.DS_Store
-
-# Build
-build/
-.gradle/
-.xcode.xcconfig
-.m.json
+.gradle
+.android
+.ios
+android/
+ios/
+.expo/
+.expo-shared/
+*.jsbundle
+.env.*.local
+*.pem

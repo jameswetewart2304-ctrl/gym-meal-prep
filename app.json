@@ -3,26 +3,36 @@
     "name": "MealForge",
     "slug": "mealforge",
     "version": "1.0.0",
-    "assetBundlePatterns": ["**/*"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f0f0f"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.jameswetewart.mealforge"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0f0f0f"
-      }
+      },
+      "package": "com.jameswetewart.mealforge"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       [
-        "expo-build-properties",
+        "expo-status-bar",
         {
-          "ios": {
-            "useFrameworks": "static"
-          }
+          "backgroundColor": "#0f0f0f"
         }
       ]
     ]
